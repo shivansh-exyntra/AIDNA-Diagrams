@@ -1,9 +1,179 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
-  <diagram name="Page-1" id="7ebRZT1S9JeEVi_Dm1OO">
-    <mxGraphModel>
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-06-14T12:00:00.000Z" agent="5.0 (Windows)" etag="ABCDEFG" version="15.8.7" type="device">
+  <diagram id="tracardi-architecture" name="Tracardi Full Architecture">
+    <mxGraphModel dx="1176" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Clients & Channels -->
+        <mxCell id="2" value="Clients &amp; Channels" style="swimlane;html=1;rounded=0;fillColor=#dae8fc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Websites &amp; SDKs" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="20" y="40" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Mobile Apps" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="130" y="40" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="CRM / 3rd‑Party APIs" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="20" y="85" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="ETL / Batch Jobs" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="130" y="85" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Edge / Ingress Layer -->
+        <mxCell id="10" value="Edge / Ingress Layer" style="swimlane;html=1;rounded=0;fillColor=#e1d5e7;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="260" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Traefik / Nginx Ingress" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="10">
+          <mxGeometry x="20" y="40" width="220" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="API Gateway (Auth, Rate‑Limit)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="10">
+          <mxGeometry x="20" y="85" width="220" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Auth Service / OIDC" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="10">
+          <mxGeometry x="20" y="130" width="220" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- API & Orchestration Tier -->
+        <mxCell id="20" value="API & Orchestration Tier" style="swimlane;html=1;rounded=0;fillColor=#fff2cc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="540" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="FastAPI (Tracardi API)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="20">
+          <mxGeometry x="20" y="200" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="GraphQL Gateway" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="20">
+          <mxGeometry x="200" y="200" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="Schema Validator" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="20">
+          <mxGeometry x="380" y="200" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="Event Router" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="20">
+          <mxGeometry x="20" y="250" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="Workflow Dispatcher" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="20">
+          <mxGeometry x="200" y="250" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="PostgreSQL Config DB" style="ellipse;whiteSpace=wrap;" vertex="1" parent="20">
+          <mxGeometry x="380" y="250" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="HashiCorp Vault" style="cylinder;whiteSpace=wrap;" vertex="1" parent="20">
+          <mxGeometry x="380" y="300" width="150" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Workflow Engine -->
+        <mxCell id="30" value="Workflow Engine" style="swimlane;html=1;rounded=0;fillColor=#d5e8d4;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="20" width="300" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="31" value="Rule Engine" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="30">
+          <mxGeometry x="600" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="32" value="Flow Manager" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="30">
+          <mxGeometry x="740" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="33" value="Plugin Registry" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="30">
+          <mxGeometry x="600" y="90" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="34" value="Execution Context (Sandbox)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="30">
+          <mxGeometry x="740" y="90" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="35" value="Plugin Runner" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="30">
+          <mxGeometry x="670" y="140" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Messaging & Event Bus -->
+        <mxCell id="40" value="Messaging &amp; Event Bus" style="swimlane;html=1;rounded=0;fillColor=#f8cecc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="300" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="41" value="Zookeeper" style="ellipse;whiteSpace=wrap;" vertex="1" parent="40">
+          <mxGeometry x="600" y="260" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="42" value="Apache Pulsar" style="cylinder;whiteSpace=wrap;" vertex="1" parent="40">
+          <mxGeometry x="740" y="260" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="43" value="Topics (events, workflows, merges)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="40">
+          <mxGeometry x="670" y="310" width="180" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Worker Pools -->
+        <mxCell id="50" value="Worker Pools" style="swimlane;html=1;rounded=0;fillColor=#fff2cc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="400" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="51" value="Flusher Workers" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="50">
+          <mxGeometry x="40" y="460" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="52" value="Storage Workers" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="50">
+          <mxGeometry x="200" y="460" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="53" value="Merge Workers" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="50">
+          <mxGeometry x="40" y="510" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="54" value="Segmentation Workers" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="50">
+          <mxGeometry x="200" y="510" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="55" value="Analytics Workers" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="50">
+          <mxGeometry x="120" y="560" width="140" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Storage & Analytics -->
+        <mxCell id="60" value="Data Storage &amp; Analytics" style="swimlane;html=1;rounded=0;fillColor=#d5e8d4;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="440" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="61" value="Elasticsearch Cluster" style="cylinder;whiteSpace=wrap;" vertex="1" parent="60">
+          <mxGeometry x="460" y="460" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="62" value="Redis Cluster" style="cylinder;whiteSpace=wrap;" vertex="1" parent="60">
+          <mxGeometry x="620" y="460" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="63" value="MinIO Object Store" style="cylinder;whiteSpace=wrap;" vertex="1" parent="60">
+          <mxGeometry x="460" y="510" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="64" value="ClickHouse Analytics" style="cylinder;whiteSpace=wrap;" vertex="1" parent="60">
+          <mxGeometry x="620" y="510" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="65" value="S3 / Backup Store" style="cylinder;whiteSpace=wrap;" vertex="1" parent="60">
+          <mxGeometry x="540" y="560" width="140" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Observability & Security -->
+        <mxCell id="70" value="Monitoring &amp; Security" style="swimlane;html=1;rounded=0;fillColor=#f8cecc;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="860" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="71" value="Prometheus" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="70">
+          <mxGeometry x="40" y="640" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="72" value="Grafana" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="70">
+          <mxGeometry x="180" y="640" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="73" value="Loki / EFK Logs" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="70">
+          <mxGeometry x="320" y="640" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="74" value="Jaeger Tracing" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="70">
+          <mxGeometry x="460" y="640" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="75" value="Kubernetes RBAC" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="70">
+          <mxGeometry x="600" y="640" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Frontend UI & Assets -->
+        <mxCell id="80" value="Frontend UI &amp; Assets" style="swimlane;html=1;rounded=0;fillColor=#e1d5e7;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="20" width="240" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="81" value="CDN / Nginx" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="80">
+          <mxGeometry x="920" y="40" width="200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="82" value="React SPA" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="80">
+          <mxGeometry x="920" y="90" width="200" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Example connector (Clients → Ingress) -->
+        <mxCell id="c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- You can add more connectors similarly by matching source and target cell IDs -->
+
       </root>
     </mxGraphModel>
   </diagram>
