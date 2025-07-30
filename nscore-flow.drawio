@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="Page-1" id="u0kKywyxvP2X5cUA1uwD">
-    <mxGraphModel dx="1984" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4901" dy="3346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,7 +195,7 @@
           <mxGeometry x="591.5" y="473" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-82" value="Post‑approval Monitoring" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3685" y="2480" width="1365" height="1650" as="geometry" />
+          <mxGeometry x="3685" y="2480" width="1365" height="1530" as="geometry" />
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-83" target="qZToFWpyG1xmvOrrA6rn-146">
           <mxGeometry relative="1" as="geometry" />
@@ -284,7 +284,7 @@
         <mxCell id="qZToFWpyG1xmvOrrA6rn-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-116" target="qZToFWpyG1xmvOrrA6rn-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZToFWpyG1xmvOrrA6rn-116" value="Reflection of parameters on &#xa;N-Score (Penalty/Reward)&#xa;(up and down in score)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-116" value="Reflection of parameters on &#xa;N-Score (Penalty/Reward)&#xa;(up and down in score)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="4225" y="3020" width="260" height="102" as="geometry" />
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-118" target="qZToFWpyG1xmvOrrA6rn-121">
@@ -293,7 +293,7 @@
         <mxCell id="qZToFWpyG1xmvOrrA6rn-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-118" target="qZToFWpyG1xmvOrrA6rn-210">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZToFWpyG1xmvOrrA6rn-118" value="n_score_new&#xa;Master Score Calculator&#xa;Real‑time N‑Score Updates&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-118" value="n_score_new&#xa;Master Score Calculator&#xa;Real‑time N‑Score Updates&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="4225" y="3219" width="260" height="126" as="geometry" />
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-121" target="qZToFWpyG1xmvOrrA6rn-191">
@@ -387,6 +387,9 @@
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-223" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Data Transformation&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;from Nanofi to BLACK BOX&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3780" y="2830" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-226" value="LEXH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="2517" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
