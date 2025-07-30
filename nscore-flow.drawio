@@ -1,9 +1,374 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="Page-1" id="u0kKywyxvP2X5cUA1uwD">
-    <mxGraphModel>
+    <mxGraphModel dx="2741" dy="2148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-142" value="LMS" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1438.5" y="2330" width="2081.5" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-1" value="Post‑approval Monitoring T5+" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="40" width="1091" height="1458" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-2" value="Pre‑loan Scoring T0–T4" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="127" y="210" width="1029" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-3" value="Data Inputs" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=24;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-80" width="1323" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-4" target="qZToFWpyG1xmvOrrA6rn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-4" value="USER_MASTER&#xa;Personal Demographics&#xa;Age, Gender, Education" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="55" y="-15" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-5" target="qZToFWpyG1xmvOrrA6rn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-5" value="USER_FINANCE&#xa;Financial Information&#xa;Income, Assets, Business" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-15" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-6" target="qZToFWpyG1xmvOrrA6rn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-6" value="USER_PERSONAL&#xa;Behavioral Assessment&#xa;Trust, Living Conditions" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="675" y="-15" width="271" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-7" target="qZToFWpyG1xmvOrrA6rn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-7" value="LOAN_REQUEST&#xa;Application Details&#xa;Amount, Purpose, Terms" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="996" y="-15" width="272" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-8" target="qZToFWpyG1xmvOrrA6rn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-8" target="qZToFWpyG1xmvOrrA6rn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-8" target="qZToFWpyG1xmvOrrA6rn-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-8" value="submit_category&#xa;Main Entry Point&#xa;Orchestrates Pre‑loan Scoring&#xa;T0" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="521.5" y="270" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-9" target="qZToFWpyG1xmvOrrA6rn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-9" value="compute_category_score&#xa;Score Calculator&#xa;Calculates Individual Category Scores&#xa;T1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245.5" y="450" width="298" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-10" target="qZToFWpyG1xmvOrrA6rn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-10" value="calculate_risk_factors&#xa;Risk Analyzer&#xa;Identifies &amp; Quantifies Risk Factors&#xa;T1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="792.5" y="450" width="265" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-11" value="evaluate_final_score_with_rbi_guidelines&#xa;RBI Compliance Validator&#xa;Applies Regulatory Guidelines&#xa;T2" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="620" width="400" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-12" value="predict_pd&#xa;ML Predictor&#xa;Machine Learning Default Prediction&#xa;T3" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="524" y="770" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-13" target="qZToFWpyG1xmvOrrA6rn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-13" value="calculate_pd_from_score&#xa;Mathematical Calculator&#xa;Converts N‑Score to PD %&#xa;T4" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475.5" y="940" width="357" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-14" value="Loan Decision&#xa;Score ≥ 45 and&#xa;Income &gt; 0 or&#xa;RBI compliant" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1503" y="310" width="302" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-15" value="End Process&#xa;Loan Denied" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="740" width="246" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-16" target="qZToFWpyG1xmvOrrA6rn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-16" value="generate_payment_timeline&#xa;Timeline Generator&#xa;Creates Payment Schedule&#xa;T5" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="160" width="344" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=96.25;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-17" target="qZToFWpyG1xmvOrrA6rn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-17" value="PAYMENT_HISTORY&#xa;Payment Records&#xa;Status, Dates, Penalties" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="241" width="227" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-18" target="qZToFWpyG1xmvOrrA6rn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-18" target="qZToFWpyG1xmvOrrA6rn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-18" value="PAYMENT EVENTS&#xa;Real‑time Triggers&#xa;Payment Received/Missed/Early" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="241" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-19" target="qZToFWpyG1xmvOrrA6rn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-19" value="loan_score&#xa;Payment Behavior Tracker&#xa;Calculates Payment Impact on Score&#xa;T6+" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="510" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-20" value="calculate_penalty&#xa;Penalty Calculator&#xa;Applies Missed Payment Penalties&#xa;T6+" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="534" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-21" target="qZToFWpyG1xmvOrrA6rn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-21" value="n_score_new&#xa;Master Score Calculator&#xa;Real‑time N‑Score Updates&#xa;T7+" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="733" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-22" target="qZToFWpyG1xmvOrrA6rn-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3150" y="1109" />
+              <mxPoint x="3150" y="304" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-76" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qZToFWpyG1xmvOrrA6rn-73">
+          <mxGeometry x="-0.9034" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-22" value="Payment Complete?&#xa;Loan Tenure Finished?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2771" y="970" width="278" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-23" value="Final Score&#xa;Loan Completed&#xa;Final N‑Score" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="1360" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-11" target="qZToFWpyG1xmvOrrA6rn-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-12" target="qZToFWpyG1xmvOrrA6rn-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-35" value="Rejected" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-14" target="qZToFWpyG1xmvOrrA6rn-15">
+          <mxGeometry x="-0.6337" y="-21" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="461" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-36" value="Approved" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0;entryY=0.5;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-14" target="qZToFWpyG1xmvOrrA6rn-16">
+          <mxGeometry x="0.0877" y="-19" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1654" y="211" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-37" value="Reduced Amount" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=1;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-14" target="qZToFWpyG1xmvOrrA6rn-16">
+          <mxGeometry x="-0.4932" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2012" y="460" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-20" target="qZToFWpyG1xmvOrrA6rn-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-47" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-22" target="qZToFWpyG1xmvOrrA6rn-23">
+          <mxGeometry x="0.1071" y="20" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.982;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-18" target="qZToFWpyG1xmvOrrA6rn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-66" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;reference/lookups&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="288.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-77" value="50% Logic of RBI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="478" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-80" value="Base N Score" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="591.5" y="473" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-82" value="Post‑approval Monitoring" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3640" y="2320" width="1091" height="1458" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-83" target="qZToFWpyG1xmvOrrA6rn-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-83" value="Pre‑loan Scoring" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4" y="2510" width="1029" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-84" value="Data Inputs" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=24;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-143" y="2220" width="1323" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-86" target="qZToFWpyG1xmvOrrA6rn-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-86" value="USER_MASTER&#xa;Personal Demographics&#xa;Age, Gender, Education" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-68" y="2285" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-88" target="qZToFWpyG1xmvOrrA6rn-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-88" value="USER_FINANCE&#xa;Financial Information&#xa;Income, Assets, Business" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="242" y="2285" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-90" target="qZToFWpyG1xmvOrrA6rn-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-90" value="USER_PERSONAL&#xa;Behavioral Assessment&#xa;Trust, Living Conditions" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="552" y="2285" width="271" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-92" target="qZToFWpyG1xmvOrrA6rn-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-92" value="LOAN_REQUEST&#xa;Application Details&#xa;Amount, Purpose, Terms" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="873" y="2285" width="272" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-96" target="qZToFWpyG1xmvOrrA6rn-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-96" value="submit_category&#xa;Main Entry Point&#xa;Orchestrates Pre‑loan Scoring" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="398.5" y="2570" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-98" target="qZToFWpyG1xmvOrrA6rn-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-98" value="compute_category_score&#xa;Score Calculator&#xa;Calculates Individual Category Scores" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="379.5" y="2720" width="298" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-151" target="qZToFWpyG1xmvOrrA6rn-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-151" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="2589" width="820" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-101" value="evaluate_final_score_with_rbi_guidelines&#xa;RBI Compliance Validator&#xa;Applies Regulatory Guidelines&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="2649" width="400" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-102" value="predict_pd&#xa;ML Predictor&#xa;Machine Learning Default Prediction&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="2637" width="281" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-105" value="Loan Decision&#xa;Score ≥ 45 and&#xa;Income &gt; 0 or&#xa;RBI compliant" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2683" y="2517" width="302" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-106" value="End Process&#xa;Loan Denied" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="2944" width="246" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-108" target="qZToFWpyG1xmvOrrA6rn-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-108" value="generate_payment_timeline&#xa;Timeline Generator&#xa;Creates Payment Schedule&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="2367" width="344" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=96.25;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-110" target="qZToFWpyG1xmvOrrA6rn-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-110" value="PAYMENT_HISTORY&#xa;Payment Records&#xa;Status, Dates, Penalties" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3710" y="2521" width="227" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-113" target="qZToFWpyG1xmvOrrA6rn-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-113" target="qZToFWpyG1xmvOrrA6rn-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-113" value="PAYMENT EVENTS&#xa;Real‑time Triggers&#xa;Payment Received/Missed/Early" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="2521" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-115" target="qZToFWpyG1xmvOrrA6rn-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-115" value="loan_score&#xa;Payment Behavior Tracker&#xa;Calculates Payment Impact on Score&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3710" y="2790" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-116" value="calculate_penalty&#xa;Penalty Calculator&#xa;Applies Missed Payment Penalties&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="2814" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-118" target="qZToFWpyG1xmvOrrA6rn-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-118" value="n_score_new&#xa;Master Score Calculator&#xa;Real‑time N‑Score Updates&#xa;" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="3013" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-121" target="qZToFWpyG1xmvOrrA6rn-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4550" y="3389" />
+              <mxPoint x="4550" y="2584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-120" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qZToFWpyG1xmvOrrA6rn-119">
+          <mxGeometry x="-0.9034" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-121" value="Payment Complete?&#xa;Loan Tenure Finished?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4171" y="3250" width="278" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-122" value="Final Score&#xa;Loan Completed&#xa;Final N‑Score" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="3640" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-125" value="Rejected" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-105" target="qZToFWpyG1xmvOrrA6rn-106">
+          <mxGeometry x="-0.6337" y="-21" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2834" y="2971" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-126" value="Approved" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0;entryY=0.5;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-105" target="qZToFWpyG1xmvOrrA6rn-108">
+          <mxGeometry x="0.0877" y="-19" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2834" y="2418" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-128" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-116" target="qZToFWpyG1xmvOrrA6rn-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-129" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-121" target="qZToFWpyG1xmvOrrA6rn-122">
+          <mxGeometry x="0.1071" y="20" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.982;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-113" target="qZToFWpyG1xmvOrrA6rn-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-131" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;reference/lookups&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="2568.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-133" value="Base N Score" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="471" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-146" target="qZToFWpyG1xmvOrrA6rn-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-146" value="USER DATA + BASE N SCORE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2685" width="258.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-156" value="Reduced Amount&#xa;RBI Guide Lines 50%" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1903" y="2790" width="281" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-158" value="Product list + KPI + BR" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3064" y="2130" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-161" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;reference/lookups&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3204" y="2280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.466;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-158" target="qZToFWpyG1xmvOrrA6rn-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
