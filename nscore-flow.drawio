@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7" pages="2">
   <diagram name="Page-1" id="u0kKywyxvP2X5cUA1uwD">
-    <mxGraphModel dx="7940" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4225" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,7 @@
         <mxCell id="qZToFWpyG1xmvOrrA6rn-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.787;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-110" target="qZToFWpyG1xmvOrrA6rn-191">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZToFWpyG1xmvOrrA6rn-110" value="PAYMENT_HISTORY&#xa;Payment Records&#xa;Status, Dates, Penalties" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-110" value="PAYMENT_HISTORY&#xa;Payment Records&#xa;Status, Dates, Penalties" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="3535" y="2911" width="227" height="135" as="geometry" />
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-191" target="qZToFWpyG1xmvOrrA6rn-116">
@@ -119,7 +119,7 @@
           <mxGeometry x="4005" y="4076" width="260" height="78" as="geometry" />
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-125" value="Rejected" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-105" target="qZToFWpyG1xmvOrrA6rn-106">
-          <mxGeometry x="-0.6337" y="-21" relative="1" as="geometry">
+          <mxGeometry x="-0.7" y="-39" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2659" y="3351" />
             </Array>
@@ -163,7 +163,7 @@
         <mxCell id="qZToFWpyG1xmvOrrA6rn-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZToFWpyG1xmvOrrA6rn-158" target="qZToFWpyG1xmvOrrA6rn-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qZToFWpyG1xmvOrrA6rn-158" value="Product Details and Repayment Structure&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="qZToFWpyG1xmvOrrA6rn-158" value="Product Details and Repayment Structure&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2531" y="2450" width="256" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-161" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;reference/lookups&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -195,14 +195,20 @@
         <mxCell id="qZToFWpyG1xmvOrrA6rn-220" value="Black Box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-630" y="2648" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qZToFWpyG1xmvOrrA6rn-221" value="PAYMENT_HISTORY&#xa;Payment Records&#xa;Status, Dates, Penalties" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="3535" y="3125" width="227" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="qZToFWpyG1xmvOrrA6rn-223" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Data Transformation&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;from Nanofi to BLACK BOX&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3560" y="3060" width="160" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="qZToFWpyG1xmvOrrA6rn-226" value="LEXH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-630" y="2747" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YzqEQJdM8uAI_CrNFfFE-1" value="UPI Rule Book" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="3500" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="YzqEQJdM8uAI_CrNFfFE-2" value="NANO Wallet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="3500" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="YzqEQJdM8uAI_CrNFfFE-3" value="&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Google Sans&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;LMS:-&lt;br&gt;* Product creation(CRUD)&lt;br&gt;* Product inOperation &lt;br&gt;* Product Exception handling &lt;br&gt;* UPI management &lt;br&gt;* LPM (Lending Pool &lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(31, 31, 31), rgb(210, 210, 210)); font-family: &amp;quot;Google Sans&amp;quot;; white-space-collapse: preserve;&quot;&gt;Managment) &lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Google Sans&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;* Wallet management&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="3500" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YzqEQJdM8uAI_CrNFfFE-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;[LMS] Exception&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;To Inform Missed&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Payments&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2508" y="3490" width="201" height="201" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
